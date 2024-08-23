@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.br-2.animado {
+  opacity: 0;
+}
+
+.br-1.animado {
+  transform: rotate(45deg) translate(9px, 8px);
+  transform-origin: 0% 100%;
+}
+
+.br-3.animado {
+  transform: rotate(-45deg) translate(-6px, 8px);
+  transform-origin: 0% 100%;
+}
+
+/* Estilo en tu archivo CSS o en la configuración de Tailwind */
+.dark input,
+.dark textarea {
+  background-color: #2d3748; /* Color de fondo oscuro */
+  color: #e2e8f0; /* Color del texto claro */
+}
+
+/* Opcional: si quieres que el borde sea visible también */
+.dark input:focus,
+.dark textarea:focus {
+  border-color: #4a5568; /* Color de borde en el modo oscuro */
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* Ejemplo de sombra en foco */
+}

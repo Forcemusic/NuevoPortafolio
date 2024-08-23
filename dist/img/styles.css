@@ -1,0 +1,22 @@
+
+body {
+    overflow-x: hidden;
+  }
+
+  #jobection {
+    max-width: 100%; /* En lugar de 800px */
+  }
+
+  /* Estilo en tu archivo CSS o en la configuración de Tailwind */
+.dark input,
+.dark textarea {
+  background-color: #2d3748; /* Color de fondo oscuro */
+  color: #e2e8f0; /* Color del texto claro */
+}
+
+/* Opcional: si quieres que el borde sea visible también */
+.dark input:focus,
+.dark textarea:focus {
+  border-color: #4a5568; /* Color de borde en el modo oscuro */
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* Ejemplo de sombra en foco */
+}
